@@ -1,0 +1,12 @@
+The following commands are valid at all scope:
+	new			create a new board
+	help			open help
+	credits			show credits
+	open <file>		open a .txt or .fen file, extension is necessary
+
+
+The following commands are valid only when opening an interact-able board:
+	filp			flip the board
+	put <piece> <square>	put the piece on the square
+	remove <square>		remove the piece on the square
+	move <square> <square>	move the piece on first square to second square
